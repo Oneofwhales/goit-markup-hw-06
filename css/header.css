@@ -99,23 +99,3 @@
 .contact-header:focus {
   color: #404bbf;
 }
-
-/* .contact-header::after
-{
-content: "";
-    display: block;
-    width: 100%;
-    border-radius: 2px;
-    height: 4px;
-    margin-top: 19px;
-    position: absolute;
-    transform: scaleX(0);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* .contact-header:hover::after,
-.contact-header:focus::after
-{
-    transform: scaleX(1);
-    background-color: #404BBF;
-} */
