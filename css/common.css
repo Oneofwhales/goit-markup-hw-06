@@ -59,9 +59,7 @@ li {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
-  max-width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 16px;
+  max-width: 320px;
+  margin: 0 auto;
 }
