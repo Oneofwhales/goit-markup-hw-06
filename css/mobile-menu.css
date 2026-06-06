@@ -94,6 +94,10 @@
   color: #434455;
 }
 
+.header-right {
+  display: none;
+}
+
 .team-social-burger {
   display: flex;
   justify-content: space-between;
@@ -102,5 +106,9 @@
 @media screen and (min-width: 768px) {
   .burger-menu {
     display: none;
+  }
+
+  .header-right {
+    display: flex;
   }
 }
