@@ -74,6 +74,10 @@
   background-color: #404bbf;
 }
 
+.header-right {
+  display: none;
+}
+
 /* .social-list {
   display: none;
   column-gap: 40px;
@@ -127,7 +131,7 @@
     flex: 1;
     margin-left: 120px;
     gap: 0;
-    display: none;
+    display: flex;
   }
 
   .burger-menu,
