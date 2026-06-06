@@ -15,6 +15,7 @@
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .team-social {
@@ -28,6 +29,7 @@
 .team-card {
   background-color: #ffffff;
   border-bottom-left-radius: 4px;
+  margin: 0 auto;
   border-bottom-right-radius: 4px;
   max-width: 264px;
   box-shadow:
@@ -72,4 +74,28 @@
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+@media screen and (min-width: 768px) {
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+    justify-content: center;
+  }
+  .team-card {
+    margin: 0;
+  }
+
+  .team-card:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .team-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
 }

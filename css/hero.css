@@ -41,3 +41,43 @@
   padding-top: 188px;
   margin-bottom: 48px;
 }
+
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7)),
+      url(../images/mobile/retina/hero-bg-m@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7)),
+      url(../images/tablet-bg/hero-bg-t@1x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7)),
+      url(../images/tablet-bg/hero-bg-t@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7)),
+      url(../images/team/Portfolio/hero-bg.jpg);
+  }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7)),
+      url(../images/team/Portfolio/hero-bg-d@2x.jpg);
+  }
+}

@@ -19,10 +19,15 @@
   <body>
     <!-- #region header -->
     <header id="header" class="header">
-      <div class="container header-container">
-        <a class="logo" href="./index.html"
-          ><span class="logo-accent">WEB</span>STUDIO</a
-        >
+      <div class="container">
+        <div class="header-wraper">
+          <a class="logo" href="./index.html"
+            ><span class="logo-accent">WEB</span>STUDIO</a
+          >
+          <svg class="burger-menu-btn" width="24" height="24">
+            <use href="./images/icons.svg#icon-Burger-btn"></use>
+          </svg>
+        </div>
         <nav class="header-nav">
           <ul class="header-nav-link">
             <li class="header-nav-items">
@@ -127,9 +132,13 @@
             <li class="team-card">
               <img
                 src="./images/team/MarkGuerrerooptimised.jpg"
-                alt="MarkGuerrero"
+                srcset="
+                  ./images/team/MarkGuerrerooptimised.jpg         1x,
+                  ./images/team/retina-team-m/markguerrero@2x.jpg 2x
+                "
                 width="264"
                 height="260"
+                alt="Mark Guerrero"
               />
               <div class="team-card-content">
                 <h3 class="text-size-h3">Mark Guerrero</h3>
@@ -168,10 +177,14 @@
             </li>
             <li class="team-card">
               <img
-                src="./images/team/TomFordoptimised.jpg"
-                alt="TomFord"
+                src="./images/team/retina-team-m/tomford@2x.jpg"
+                srcset="
+                  ./images/team/TomFordoptimised.jpg         1x,
+                  ./images/team/retina-team-m/tomford@2x.jpg 2x
+                "
                 width="264"
                 height="260"
+                alt="Tom Ford"
               />
               <div class="team-card-content">
                 <h3 class="text-size-h3">Tom Ford</h3>
@@ -211,9 +224,13 @@
             <li class="team-card">
               <img
                 src="./images/team/CamilaGarciaoptimised.jpg"
-                alt="CamilaGarcia"
+                srcset="
+                  ./images/team/CamilaGarciaoptimised.jpg         1x,
+                  ./images/team/retina-team-m/camilagarcia@2x.jpg 2x
+                "
                 width="264"
                 height="260"
+                alt="Camila Garcia"
               />
               <div class="team-card-content">
                 <h3 class="text-size-h3">Camila Garcia</h3>
@@ -253,9 +270,13 @@
             <li class="team-card">
               <img
                 src="./images/team/DanielWilsonoptimised.jpg"
-                alt="DanielWilson"
+                srcset="
+                  ./images/team/DanielWilsonoptimised.jpg         1x,
+                  ./images/team/retina-team-m/danielwilson@2x.jpg 2x
+                "
                 width="264"
                 height="260"
+                alt="Daniel Wilson"
               />
               <div class="team-card-content">
                 <h3 class="text-size-h3">Daniel Wilson</h3>
@@ -304,11 +325,14 @@
             <li class="portfolio-list-item">
               <div class="portfolio-overlay">
                 <img
-                  class="portfolio-img"
                   src="./images/team/Portfolio/Banking-optm.jpg"
-                  alt="App interface"
+                  srcset="
+                    ./images/team/Portfolio/Banking-optm.jpg          1x,
+                    ./images/team/Portfolio/retina-m/banking-m@2x.jpg 2x
+                  "
                   width="360"
                   height="300"
+                  alt="Banking App"
                 />
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -324,11 +348,14 @@
             <li class="list-item portfolio-list-item">
               <div class="portfolio-overlay">
                 <img
-                  class="portfolio-img"
-                  src="./images/team/Portfolio/Payment-optm.jpg"
-                  alt="Mobile payment terminal"
+                  src="./images/team/Portfolio/Banking-optm.jpg"
+                  srcset="
+                    ./images/team/Portfolio/Banking-optm.jpg          1x,
+                    ./images/team/Portfolio/retina-m/banking-m@2x.jpg 2x
+                  "
                   width="360"
                   height="300"
+                  alt="Cashless Payment"
                 />
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -346,11 +373,14 @@
             <li class="list-item portfolio-list-item">
               <div class="portfolio-overlay">
                 <img
-                  class="portfolio-img"
                   src="./images/team/Portfolio/Meditation-optm.jpg"
-                  alt="A laptop with a meditation app"
+                  srcset="
+                    ./images/team/Portfolio/Meditation-optm.jpg          1x,
+                    ./images/team/Portfolio/retina-m/meditation-m@2x.jpg 2x
+                  "
                   width="360"
                   height="300"
+                  alt="Meditation App"
                 />
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -368,11 +398,14 @@
             <li class="list-item portfolio-list-item">
               <div class="portfolio-overlay">
                 <img
-                  class="portfolio-img"
                   src="./images/team/Portfolio/Taxi-optm.jpg"
-                  alt="Taxi with a driver"
+                  srcset="
+                    ./images/team/Portfolio/Taxi-optm.jpg          1x,
+                    ./images/team/Portfolio/retina-m/taxi-m@2x.jpg 2x
+                  "
                   width="360"
                   height="300"
+                  alt="Taxi Service"
                 />
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -388,11 +421,14 @@
             <li class="list-item portfolio-list-item">
               <div class="portfolio-overlay">
                 <img
-                  class="portfolio-img"
                   src="./images/team/Portfolio/Illustrations-optm.jpg"
-                  alt="A phone with illustrations"
+                  srcset="
+                    ./images/team/Portfolio/Illustrations-optm.jpg   1x,
+                    ./images/team/Portfolio/retina-m/screen-m@2x.jpg 2x
+                  "
                   width="360"
                   height="300"
+                  alt="Screen Illustrations"
                 />
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -410,11 +446,14 @@
             <li class="list-item portfolio-list-item">
               <div class="portfolio-overlay">
                 <img
-                  class="portfolio-img"
                   src="./images/team/Portfolio/Courses-optm.jpg"
-                  alt="A girl on the street wearing an orange sweater"
+                  srcset="
+                    ./images/team/Portfolio/Courses-optm.jpg          1x,
+                    ./images/team/Portfolio/retina-m/courses-m@2x.jpg 2x
+                  "
                   width="360"
                   height="300"
+                  alt="Online Courses"
                 />
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -435,7 +474,7 @@
       <!-- #endregion Portfolio -->
     </main>
     <!-- #region footer -->
-    <footer id="footer" class="footer sr-only">
+    <footer id="footer" class="footer">
       <div class="container footer-container">
         <div class="footer-left">
           <a class="footer-logo" href="./index.html"
@@ -503,6 +542,64 @@
       </div>
     </footer>
     <!-- #endregion footer -->
+    <div class="burger-menu">
+      <button type="button" class="burger-menu-close-btn">
+        <svg width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav>
+        <ul class="burger-menu-list">
+          <li><a class="burger-link-header" href="">Studio</a></li>
+          <li><a class="burger-link-header" href="">Portfolio</a></li>
+          <li><a class="burger-link-header" href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <div>
+        <ul class="burger-menu-contact">
+          <li>
+            <a class="burger-contact-header" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="burger-contact-header" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+        <ul class="team-social-burger">
+          <li class="team-card-burger">
+            <a href="" class="team-icon-link">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-card-burger">
+            <a href="" class="team-icon-link">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-card-burger">
+            <a href="" class="team-icon-link">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-card-burger">
+            <a href="" class="team-icon-link">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- #region backdrop -->
     <div class="backdrop" id="modal">
       <div class="modal">
