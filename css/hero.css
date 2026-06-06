@@ -79,7 +79,7 @@
 
 @media screen and (min-width: 1158px) {
   .hero {
-    padding: 112px;
+    padding: 112px 0;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7)),
       url(../images/team/Portfolio/hero-bg.jpg);
@@ -93,13 +93,8 @@
   .hero {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 188px 0;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7)),
       url(../images/team/Portfolio/hero-bg-d@2x.jpg);
-  }
-
-  .hero-container .text-size-h1 {
-    margin-bottom: 48px;
   }
 }

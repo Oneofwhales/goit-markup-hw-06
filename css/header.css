@@ -7,7 +7,6 @@
 }
 
 .header-wraper {
-  padding: 16px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -108,7 +107,7 @@
     display: flex;
     gap: 129px;
     align-items: center;
-    margin-left: 120px;
+    margin-left: 76px;
   }
 
   .burger-menu,
