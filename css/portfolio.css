@@ -85,6 +85,10 @@
     row-gap: 48px;
   }
 
+  .portfolio {
+    padding: 120px 0;
+  }
+
   .portfolio-list-item {
     width: calc((100% - 48px) / 3);
   }

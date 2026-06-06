@@ -98,4 +98,8 @@
     flex-wrap: nowrap;
     gap: 24px;
   }
+
+  .team {
+    padding: 120px 0;
+  }
 }

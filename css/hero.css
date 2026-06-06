@@ -38,8 +38,7 @@
 .hero-container .text-size-h1 {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 188px;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 
 @media (min-resolution: 192dpi) {
@@ -51,7 +50,18 @@
 }
 
 @media screen and (min-width: 768px) {
+  .text-size-h1 {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
+
+  .hero-container .text-size-h1 {
+    margin-bottom: 36px;
+  }
+
   .hero {
+    padding: 112px 0;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7)),
       url(../images/tablet-bg/hero-bg-t@1x.jpg);
@@ -76,8 +86,15 @@
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .hero {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 188px 0;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7)),
       url(../images/team/Portfolio/hero-bg-d@2x.jpg);
+  }
+
+  .hero-container .text-size-h1 {
+    margin-bottom: 48px;
   }
 }

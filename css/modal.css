@@ -22,13 +22,13 @@
 
 .modal {
   position: relative;
-  width: 408px;
+  width: 288px;
   height: 80%;
   max-height: 584px;
   background-color: #fcfcfc;
   overflow: auto;
   border-radius: 4px;
-  padding: 72px 24px 24px;
+  padding: 72px 16px 24px;
   box-shadow:
     0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -231,4 +231,11 @@
 .button-modal:hover,
 .button-modal:focus {
   background-color: #404bbf;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px;
+  }
 }

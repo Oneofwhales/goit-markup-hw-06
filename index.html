@@ -24,37 +24,41 @@
           <a class="logo" href="./index.html"
             ><span class="logo-accent">WEB</span>STUDIO</a
           >
-          <svg class="burger-menu-btn" width="24" height="24">
-            <use href="./images/icons.svg#icon-Burger-btn"></use>
-          </svg>
+          <button type="button" class="burger-menu-btn">
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-Burger-btn"></use>
+            </svg>
+          </button>
         </div>
-        <nav class="header-nav">
-          <ul class="header-nav-link">
-            <li class="header-nav-items">
-              <a class="link-header active" href="#features">Features</a>
-            </li>
-            <li class="header-nav-items">
-              <a class="link-header" href="#team">Team</a>
-            </li>
-            <li class="header-nav-items">
-              <a class="link-header" href="#portfolio">Portfolio</a>
-            </li>
-          </ul>
-        </nav>
-        <address>
-          <ul class="social-list">
-            <li>
-              <a class="contact-header" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="contact-header" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="header-right">
+          <nav class="header-nav">
+            <ul class="header-nav-link">
+              <li class="header-nav-items">
+                <a class="link-header active" href="#features">Features</a>
+              </li>
+              <li class="header-nav-items">
+                <a class="link-header" href="#team">Team</a>
+              </li>
+              <li class="header-nav-items">
+                <a class="link-header" href="#portfolio">Portfolio</a>
+              </li>
+            </ul>
+          </nav>
+          <address>
+            <ul class="social-list">
+              <li>
+                <a class="contact-header" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="contact-header" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <!-- #endregion header -->
@@ -177,7 +181,7 @@
             </li>
             <li class="team-card">
               <img
-                src="./images/team/retina-team-m/tomford@2x.jpg"
+                src="./images/team/TomFordoptimised.jpg"
                 srcset="
                   ./images/team/TomFordoptimised.jpg         1x,
                   ./images/team/retina-team-m/tomford@2x.jpg 2x
@@ -542,7 +546,7 @@
       </div>
     </footer>
     <!-- #endregion footer -->
-    <div class="burger-menu">
+    <div id="mobile-menu" class="burger-menu">
       <button type="button" class="burger-menu-close-btn">
         <svg width="8" height="8">
           <use href="./images/icons.svg#icon-close"></use>

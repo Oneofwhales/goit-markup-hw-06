@@ -104,6 +104,12 @@
     align-items: center;
   }
 
+  .header-right {
+    display: flex;
+    gap: 129px;
+    align-items: center;
+  }
+
   .burger-menu,
   .burger-menu-btn {
     display: none;
@@ -112,14 +118,11 @@
   .header-nav {
     display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .header-nav-link {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 120px;
   }
 
   .link-header {
@@ -138,7 +141,6 @@
 
   .header address {
     display: block;
-    margin-left: auto;
   }
 
   .social-list {
@@ -160,9 +162,9 @@
     max-width: 1158px;
   }
 
-  .header-nav {
+  .header-nav-link {
+    display: flex;
     margin-left: 76px;
-    margin-right: 0;
   }
 
   .social-list {
@@ -175,5 +177,11 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+  }
+
+  .header-right {
+    display: flex;
+    gap: 340px;
+    align-items: center;
   }
 }
