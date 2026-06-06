@@ -126,7 +126,7 @@
     align-items: center;
     justify-content: space-between;
     flex: 1;
-    margin-left: 76px;
+    margin-left: 120px;
     gap: 0;
   }
 
@@ -201,5 +201,6 @@
     display: flex;
     gap: 340px;
     align-items: center;
+    margin-left: 76px;
   }
 }
